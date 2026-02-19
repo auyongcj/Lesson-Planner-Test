@@ -11,7 +11,6 @@ from src.lesson_schema import LessonPlanDoc, LessonInfoRow, LogisticsRow, Method
 from src.lesson_renderer import render_lesson_html
 from datetime import date
 from io import BytesIO
-from xhtml2pdf import pisa
 from src.render_lesson_pdf import render_lesson_pdf
 
 st.set_page_config(page_title="Training Programme Builder", layout="wide")
